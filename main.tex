@@ -1,0 +1,51 @@
+%This is a LaTeX template for homework assignments
+\documentclass{article}
+\pagestyle{empty}
+\usepackage[utf8x]{inputenc}
+\usepackage{libertine} % or \usepackage{fourier} or \usepackage[utopia]{mathdesign}
+\usepackage{tabu}
+
+\begin{document}
+
+\section*{Kilometrikorvauslomake}
+
+Nimi: \line(1,0){225}\\\\
+Tilinumero: \line(1,0){200}\\\\
+Päiväys: \line(1,0){20} . \line(1,0){20} . \line(1,0){40}\\\\
+
+\begin{tabu} to 0.8\textwidth { | X[c] | X[c] | X[c] | X[c] | }
+ \hline
+ Pvm & Mistä & Minne & km \\
+ \hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+\end{tabu}\\
+\begin{flushright}
+  \begin{tabu} to 0.4\textwidth {| X[l] | X[r] | }
+    \hline
+    Kilometrit yht. & km \\
+    \hline
+    Korvaus & 0,25 €/km \\
+    \hline
+    Korvaussumma & € \\
+  \hline
+\end{tabu}
+\end{flushright}
+
+\begin{flushleft}
+Selvitys, miksi on ajettu:
+\end{flushleft}
+\centering
+\framebox(\textwidth,200)
+
+\end{document}
